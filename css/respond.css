@@ -1,0 +1,112 @@
+@charset 'utf-8';
+
+@media all and (max-width: 1220px) {
+    /* index.html */
+    .n_inner{width:100%; padding:0 1rem; font-size: 16px;}
+    .top_btn{font-size: 16px; margin-right: 22px;}
+    .top_right{right:1rem;}
+    .main_container{width:100% !important; padding:0 1rem !important;}
+    .edit_title{font-size: 22px}
+    .edit_title a{padding:1px 5px;}
+    .edit_right {right:1rem;}
+    .edit_swipe_wrap{ padding:0 1rem !important;}
+    .edit_swipe li{float: none; clear: both; display: block}
+    .edit_swipe li a{width: 100%;}
+    .fun_box{width:100%;}
+    .edit_swipe li.edit_box a .fun_pro{width:100%;}
+    .fun_imgwrap{height: auto}
+    .edit_swipe li.edit_box a .fun_pro{height:auto;}
+    .fpick_wrap{width:100% !important; padding:0 1rem !important;}
+    .fpick_boxwrap{display: block;}
+    .fpick_boxwrap li{width:47.5%; display: inline-block; margin-left: 0; padding-bottom:1rem; }
+    .fpick_boxwrap li:nth-child(even){ margin-left: 2.5%;}
+    .fpick_boxwrap li a{width:100%;}
+    .fpick_boxwrap li.fpick_box a .fun_pro{width: 100%;}
+    .fun_imgwrap{width:100%;}
+    .fpick_title{font-size: 22px;}
+    .fpick_title a{padding:1px 5px;}
+    /* //index.html */
+
+}/* @media (min-width: 768px) and (max-width: 1220px) */
+
+@media all and (max-width: 767px) {
+    /* index.html */
+    .navigation{height: 60px; line-height:60px;}
+    .navigation:before{top:60px;}
+    .logo_btn{top:14px;}
+    .top_right{right:1rem;}
+    .top_btn span{display: none;}
+    .fun_sign{display: none;}
+    .fun_title{font-size: 14px;}
+    .fun_name{margin:10px 0 15px;}
+    .main_slide .main_pgnt{bottom:10px !important;}
+    .main_container{width:100% !important; padding:0 1rem !important; margin-top:30px;}
+    .edit_title{font-size: 14px}
+    .edit_title a{padding:0 4px;}
+    .edit_right{top:15px; right:1rem;}
+    .edit_right .swiper-pagination{font-size: 14px;}
+    .edit_swipe_wrap{ padding:0 1rem !important;}
+    .fpick_wrap{width:100%; padding:0 1rem !important; margin-top:30px;}
+    .fpick_title{font-size: 14px;}
+    .fpick_title a{padding:0px 4px;}
+    .fpick_boxwrap li.fpick_box a .fun_pro{height: auto;}
+    .foot_list{display: block}
+    .foot_list li{margin-left: 0;}
+    /* //index.html */
+
+}
+
+@media all and (max-width: 640px) {
+    /* index.html */
+    .fpick_boxwrap li:nth-child(even){margin-left:4%;}
+
+    /* //index.html */
+}
+
+@media all and (max-width: 480px) {
+
+    /* index.html */
+    .main_slide .main_pgnt{bottom:10px !important;}
+    .main_container{width:100% !important; padding:0 1rem !important; margin-top:30px;}
+    .logo_btn{width: 60px; top:22px;}
+    .top_logo{width: 60px; height: 100%; background-size: contain;}
+    .edit_title{font-size: 14px}
+    .edit_title a{padding:0 4px;}
+    .edit_right{top:15px; right:1rem;}
+    .edit_right .swiper-pagination{font-size: 14px;}
+    .edit_swipe_wrap{ padding:0 1rem !important;}
+    .fpick_wrap{width:100%; padding:0 1rem !important; margin-top:30px;}
+    .fpick_title{font-size: 14px;}
+    .fpick_title a{padding:0px 4px;}
+    .fpick_boxwrap li{display: block; width:100%;}
+    .fpick_boxwrap li:nth-child(even){margin-left:0;}
+    .foot_list{display: block}
+    .foot_list li{margin-left: 0;}
+    /* //index.html */
+    
+    /* login.html */
+    .login_wrap {width:100%; padding:0 10px;}
+    .login_box{padding-top:25px !important;}
+    .login_title{font-size: 18px; margin-bottom:10px;}
+    .social_box{width:100% !important; padding:0 10px !important;}
+    .join_wrap {width: 100% !important}
+    .join_wrap .row a{display: inline-block; width:50%;}
+    /* //login.html */
+
+    /* join.html */
+    .login_wrap label{font-weight: 400; font-size: 13px; color:#111;}
+    .terms{width:100%; height: 150px; max-height: 150px;}    
+    /* // join.html */
+
+    /* findpw */
+    .findpw_box{width:100%; padding-top: 25px !important}
+    .fpw_info p, .fpw_info1 p{margin-bottom: 5px !important}
+    .fpw_title{font-size: 18px; margin-bottom:10px; padding-bottom: 10px;}
+    .fpw_info1{margin:20px 0 30px; }
+
+    /* //findpw */
+
+    /* resetpw */
+    .rpw_info{margin-bottom: 15px !important}
+    .small_t{font-size: 12px;}
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<meta name="description" content=""/>
+<meta name="keywords" content="">
+<title>PICKER</title>
+<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./css/respond.css"/>
+<!-- fontawesome -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/global.js"></script>
+
+<!--[if lt IE 9]>
+<script src="./js/html5.js"></script>
+<![endif]-->
+</head>
+    <body>
+        <div class="wrap">
+            <header class="navigation">       
+                <div class="n_inner">
+                    <button type="#" class="top_btn" data-toggle="modal" data-target="#myModal">
+                        <span>펀딩 둘러보기</span>
+                    </button>
+                    <a href="#" class="fun_sign">펀딩 신청하기</a>
+                    <a href="index.html" class="logo_btn">
+                        <h1 class="top_logo">텀블벅</h1>
+                    </a>
+                    <div class="top_right">
+                        <a href="#">로그인/회원가입</a>                        
+                    </div>
+                </div>
+            </header>
+            <section class="join_con">
+                <div class="container-fluid login_box">
+                    <p class="login_title">회원가입</p>
+                    <form action="" name="fm" class="fm">    
+                        <div class="login_wrap">
+                            <label for="terms">이용약관</label>
+                            <textarea name="terms" class="terms">
+                                
+                            </textarea>
+                            <div class="form-group terms_chkwrap">
+                                <input type="checkbox" id="agree" name="agree">
+                                <label for="agree"><span></span>약관동의</label>
+                            </div>
+                            <div class="form-group">
+                                <label for="uname">이름</label>
+                                <input type="text" placeholder="이름을 입력하세요" id="uname" name="uname" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="uemail">이메일 주소</label>
+                                <input type="email" placeholder="이메일 주소를 입력해주세요" id="uemail" name="uemail" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailchk" class="dis_none">이메일 확인</label>
+                                <input type="email" placeholder="이메일 주소를 다시한번 입력해주세요" id="emailchk" name="emailchk" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="psw">비밀번호</label>
+                                <input type="password" placeholder="비밀번호를 입력해주세요" id="psw" name="psw" required class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="pswchk" class="dis_none">비밀번호 확인</label>
+                                <input type="password" placeholder="비밀번호를 다시한번 입력해주세요" id="pswchk" name="pswchk" required class="form-control">
+                            </div>                    
+                            <button type="submit" id="login_btn" class="login_btn">가입하기</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-full">
+                <div class="modal-content">
+            
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">카테고리</h4>
+                    
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    Modal body..
+                    </div>
+            
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+
+            
+
+            
+        <footer>
+            <div class="container foot_wrap">
+                <ul class="foot_list">
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보취급방법</a></li>
+                    <li><a href="">사업자정보확인</a></li>
+                    <li><a href="">에스크로서비스가입확인</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+    
+</html>

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<meta property="og:title" content="">
+<meta property="og:image" content="">
+<meta property="og:description" content="">
+<meta name="description" content=""/>
+<meta name="keywords" content="">
+<title>PICKER</title>
+<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./css/respond.css"/>
+<!-- fontawesome -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/swiper.min.js"></script>
+<script src="./js/global.js"></script>
+
+<!--[if lt IE 9]>
+<script src="./js/html5.js"></script>
+<![endif]-->
+</head>
+    <body>
+        <div class="wrap">
+            <header class="navigation">       
+                <div class="n_inner">
+                    <button type="#" class="top_btn" data-toggle="modal" data-target="#myModal">
+                        <span>펀딩 둘러보기</span>
+                    </button>
+                    <a href="index.html" class="fun_sign">펀딩 신청하기</a>
+                    <a href="#" class="logo_btn">
+                        <h1 class="top_logo">텀블벅</h1>
+                    </a>
+                    <div class="top_right">
+                        <a href="login.html">로그인/회원가입</a>                        
+                    </div>
+                </div>
+            </header>
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-full">
+                <div class="modal-content">
+            
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">카테고리</h4>
+                    
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+            
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    Modal body..
+                    </div>
+            
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+            
+                </div>
+                </div>
+            </div>
+
+            <div class="swiper-container container-fluid main_slide">
+                <article class="swiper-wrapper main_carousel">
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/1920x500"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/1920x500"></div>
+                    <div class="swiper-slide"><img src="https://via.placeholder.com/1920x500"></div>
+                </article>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination main_pgnt"></div>
+            </div>
+
+            <div class="container main_container">
+                <div class="edit_title">
+                    <div class="edit_t">에디터 PICK</div>
+                    <a href="#">MORE</a>
+                </div>
+                <div class="edit_right">
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination page_num"></div>
+                    <!-- Add Arrows -->
+                    <div class="arrow_wrap">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <article class="swiper-container edit_swipe_wrap">
+                <div id="blogCarousel" class="carousel slide edit_swipe" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    </ol>
+                </div>
+                
+                <ul class="swiper-wrapper edit_swipe">
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="swiper-slide edit_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>  <!-- //edit_swipe -->
+            </article>  <!-- //edit_swipe_wrap -->
+
+            <article class="container fpick_wrap">
+                <div class="fpick_title">
+                    <div class="fpick_t">인기 PICK</div>
+                    <a href="#">MORE</a>
+                </div>
+                <ul class="fpick_boxwrap">
+                    <li class="fpick_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="fpick_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="fpick_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="fpick_box">
+                        <a href="#">
+                            <div class="fun_imgwrap">
+                                <img src="images/wallet.jpg" alt="상품이름" class="fun_pro">
+                            </div>
+                            <div class="fun_box">
+                                <div>
+                                    <p class="fun_title">펀딩상품이름 길게길게 긴이름 긴이름 펀딩상품이름 길게길게 </p>
+                                    <span class="fun_name">오영빈</span>
+                                    <div class="fun_dleft">
+                                        <span>7일 남음</span>
+                                        <span class="span222">70,000원</span>
+                                    </div>
+                                </div>                   
+                                <p class="fun_delit"><img src="images/deli.jpg" alt="배송">지금 펀딩하면 <span class="fun_deli">18년 12월20일에 배송</span>
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </article>  <!-- //fpick_wrap -->
+        </div>  <!-- //wrap -->
+        <footer>
+            <div class="container foot_wrap">
+                <ul class="foot_list">
+                    <li><a href="">이용약관</a></li>
+                    <li><a href="">개인정보취급방법</a></li>
+                    <li><a href="">사업자정보확인</a></li>
+                    <li><a href="">에스크로서비스가입확인</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+    
+</html>

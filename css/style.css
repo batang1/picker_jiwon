@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* img {max-width:100%;position:relative;} */
+
+.wrap{width:100%; position: relative; font-family: nr, '맑은 고딕', 'Malgun Gothic', sans-serif; font-weight: 500; color: #020202;}
+.navigation{width:100%; height: 100px; line-height: 100px; position: relative;}
+.navigation:before {content:"";	position:absolute; left:0; top:100px; background:#e5e5e5;	width:100%;	height:1px;}
+.n_inner{width:1200px; position: relative; margin:0 auto; font-size: 18px;}
+.top_btn{width:auto; background: none; border:0; margin:0; padding: 0; cursor: pointer; margin-right:44px; font-family: nr, '맑은 고딕', 'Malgun Gothic', sans-serif; font-size: 18px; font-weight: 400; outline: 0;}
+.fas{font-size: 18px;}
+.top_btn::before{ content:"\f0c9"; font-family: FontAwesome; display: inline-block; color:#000; font-size: 18px; margin-right:18px;}
+.top_btn:active, .top_btn:focus{outline:0;}
+.n_inner a, .n_inner a:hover, .n_inner a:active, .n_inner a:focus{color:#000;}
+.logo_btn{position: absolute; top: 34px; left: 0; right:0; bottom:0; width:99px; margin:0 auto;}
+.top_logo{width:100%; height: 33px; background-image: url(../images/logo.jpg); background-repeat: no-repeat; font-size: 0;}
+.top_right{position: absolute; right:0; top:0; font-family:nr;font-weight:400; font-size: 13px; color:#8e8f91}
+.main_slide .main_pgnt{bottom:30px !important;}
+.main_carousel img{width:100%;}
+.main_pgnt .swiper-pagination-bullet {width: 10px; height: 10px; opacity: 1; background: none; border:1px solid #fff; }
+.main_pgnt .swiper-pagination-bullet-active{background: #fff;}
+.main_pgnt .swiper-pagination-bullet:hover {background: none;}
+.container {padding:0 !important; margin:0 atuo !important; width:1200px !important; max-width:1200px !important}
+.main_container{margin-top:100px; position: relative; overflow: hidden;}
+.edit_title{font-size: 25px; font-weight: 500; color:#111; margin-bottom:16px;}
+.edit_t{display: inline-block}
+.edit_title a{color:#8e8f91; font-weight: 400; font-size: 10px; padding:1px 9px; border:1px solid #8e8f91; border-radius: 15px; display: inline-block; vertical-align: middle; margin-left:8px;}
+.edit_swipe_wrap {max-width:1200px; display: flex;}
+.edit_swipe{ display: flex; margin:0; padding:0;}
+.edit_swipe li.edit_box{list-style: none; align-items: center; justify-content: center; /* Center slide text vertically */ display: -webkit-box; display: flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center;}
+.edit_swipe li a{display: block; color:#111;}
+.edit_swipe li a:hover, .edit_swipe li a:active{color:#111; text-decoration: none;}
+.fun_imgwrap{width:100%; height: 300px; overflow: hidden;}
+.edit_swipe li.edit_box a .fun_pro{width:285px; height: 300px;}
+.edit_right{width:auto; position: absolute; top:20px; right:0;}
+.edit_right .swiper-pagination{position: relative; bottom:13px; left: -45px; font-size: 15px; font-weight: 400; color:#8e8f91}
+.arrow_wrap{width:36px; display: inline-block; position: absolute; top:10px; right: 0; vertical-align: middle}
+.main_container .swiper-button-prev{background: none !important; right:10px; width:8px; height:14px; outline: 0;}
+.main_container .swiper-button-prev::before{ content:"\f104"; font-family: FontAwesome; color:#8e8f91; font-size: 15px;}
+.main_container .swiper-button-next{background: none !important; width:8px; height:14px; right:0; outline: 0;}
+.main_container .swiper-button-next::before{ content:"\f105"; font-family: FontAwesome; color:#8e8f91; font-size: 15px;}
+.fun_box{width:285px; padding:15px 11px 0; border:1px solid #e5e5e5;}
+.fun_title{font-weight: 500; font-size: 18px; color:#111; line-height: 1.3}
+.fun_name{font-size: 13px; font-weight: 350; color:#111; margin:15px 0 30px; display: block}
+.fun_dleft{font-size: 13px; font-weight: 350; color:#111; margin-bottom:17px;
+    display: flex;
+    -webkit-box-pack: space-between;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.fun_delit{font-size: 13px; font-weight: 350; color:#959595; position: relative; padding:13px 0 0;}
+.fun_delit .fun_deli{color:#0096ff; margin-right: 7px;}
+.fun_delit::before{content:"";	position:absolute; left:0; top:0; background:#e5e5e5; width:100%; height:1px;}
+.fun_delit img{margin-right: 13px;}
+
+.fpick_wrap {margin-top:100px; margin-bottom:150px;}
+.fpick_title{font-size: 25px; font-weight: 500; color:#111; margin-bottom:16px;}
+.fpick_t{display: inline-block}
+.fpick_title a{color:#8e8f91; font-weight: 400; font-size: 10px; padding:1px 9px; border:1px solid #8e8f91; border-radius: 15px; display: inline-block; vertical-align: middle; margin-left:8px;}
+
+.fpick_boxwrap{display: flex; display: -webkit-flex; margin:0; padding:0;}
+.fpick_boxwrap li{list-style: none; margin-left:20px;}
+.fpick_boxwrap li:first-child{margin-left:0;}
+.fpick_boxwrap li a{display: block; color:#111;}
+.fpick_boxwrap li a:hover, .edit_swipe li a:active{color:#111; text-decoration: none;}
+.fun_imgwrap{width:100%; height: 300px; overflow: hidden;}
+.fpick_boxwrap li.fpick_box a .fun_pro{width:285px; height: 300px;}
+.edit_right{width:auto; position: absolute; top:20px; right:0;}
+.edit_right .swiper-pagination{position: relative; bottom:13px; left: -45px; font-size: 15px; font-weight: 400; color:#8e8f91}
+footer{width:100%; position: relative; overflow: hidden; background-color: #000000; padding:42px 10px;}
+.container .foot_wrap{padding:42px 10px;}
+.foot_list{position: relative; overflow: hidden; display: -webkit-flex; display: flex;}
+.foot_list li{list-style:none; color:#fff; margin-left: 37px;}
+.foot_list li:first-child{margin-left: 0;}
+.foot_list li a{color:#fff;}
+/* Modal */
+.modal{padding:0 !important;}
+.modal-full {min-width: 100%; margin: 0; margin:0 auto !important;}
+.modal-full .modal-content {min-height: 100vh;}
+
+/* login */
+.login_box{padding-top:90px !important;}
+.login_title{text-align: center; position: relative; margin-bottom:50px; font-weight:400; font-size: 30px; color:#111;}
+.login_wrap{width:400px; margin:0 auto; position: relative; overflow: hidden;}
+input[name="uemail"], input[name="psw"]{width:100%; height:50px; font-weight: 300; box-sizing: border-box; border:1px solid #e5e5e5; padding:18px 20px; color:#8e8f91; font-size: 13px; margin-bottom:10px;}
+.dis_none{display: none}
+input[type="checkbox"] {display:none;}
+input[type="checkbox"] + label {font-weight: 350; font-size: 13.01px; color:#8e8f91;}
+input[type="checkbox"] + label span {position: relative; display:inline-block; width:13px; height:13px; border:1px solid #8e8f91; vertical-align:middle; cursor:pointer; margin-right:6px; margin-bottom:2px;}
+input[type="checkbox"]:checked + label span::before {content: "\f14a"; font-family: FontAwesome; position: absolute; bottom: -6px; font-size: 15px;}
+.login_btn{display: block; width:100%; background-color: #000; color:#fff; border:0; margin-top:20px; padding:19px 0; font-weight: 500; font-size: 15px; margin-bottom:20px}
+.social_box{position: relative; overflow: hidden; width:400px !important; margin:0 auto !important; padding-top:20px !important;}
+.social_box::before{content:""; position:absolute; left:0; top:0;background:#e5e5e5; width:100%;	height:1px; }
+.social_box button{display: block; margin:0 auto; margin-bottom:10px; cursor: pointer;}
+.fb_btn{color:#3b579d; font-weight: 500; font-size: 15px; background: none; border:1px solid #3b579d; width:100%; height:50px; position: relative; }
+.fb_btn::before{content:""; background-image: url(../images/fb_icon.jpg); width:9px; height:18px; position: absolute; left:50%; margin-left: -72px; vertical-align: middle}
+.nv_btn{color:#55b24d; font-weight: 500; font-size: 15px; background: none; border:1px solid #55b24d; width:100%; height:50px; position: relative;}
+.nv_btn::before{content:""; background-image: url(../images/naver_icon.jpg); width:15px; height:13px; position: absolute; left:50%; top: 18px; margin-left: -68px; vertical-align: middle}
+.ka_btn{color:#3e1a19; font-weight: 500; font-size: 15px; background: none; border:1px solid #3e1a19; width:100%; height:50px; position: relative;}
+.ka_btn::before{content:""; background-image: url(../images/kakao_icon.jpg); width:15px; height:14px; position: absolute; left:50%; top: 19px; margin-left: -68px; vertical-align: middle}
+.join_wrap{width:400px !important; margin:0 auto; position: relative; font-weight: 350; font-size: 13px; color:#8e8f91; padding-top:19px; box-sizing: border-box; margin-bottom:147px;}
+.row{margin:0 !important;}
+.row a{padding:0 !important;}
+.join_wrap a{color:#8e8f91; text-align: center}
+.join_wrap a:hover, .join_wrap a:focus{color:#8e8f91;}
+.join_btn{padding:3px 0; border-right:1px solid #e6e6e6}
+/* //login */
+
+/* join */
+.join_con{margin-bottom:150px;}
+.login_wrap .form-group{margin-bottom:19px;}
+.login_wrap label{font-weight: 400; font-size: 15px; color:#111;}
+.terms{width:400px; height:180px; max-width: 400px; min-height: 180px;}
+.terms_chkwrap{text-align: right}
+.terms_chkwrap input[type="checkbox"]:checked + label span::before{right:-1px;}
+input[name="uname"], input[name="uemail"], input[name="emailchk"], input[name="psw"], input[name="pswchk"]{width:100%; height:50px; font-weight: 300; box-sizing: border-box; border:1px solid #e5e5e5; padding:18px 20px; color:#8e8f91; font-size: 13px; margin-bottom:10px;}
+/* //join */
+
+/* findpw */
+.findpw_box{width: 400px !important; margin:0 auto !important; position: relative; padding-top:90px !important;}
+.fpw_title{text-align: center; position: relative; margin-bottom:50px; font-weight:400; font-size: 30px; color:#111; padding-bottom: 29px;}
+.fpw_title::after{content:""; position:absolute; left:0; bottom:0;background:#e5e5e5; width:100%; height:1px; }
+.fpw_info{text-align: center; }
+.fpw_info1{text-align: center; font-weight: 700; margin: 42px 0 76px;}
+input[name="femail"]{width:100%; height:50px; font-weight: 300; box-sizing: border-box; border:1px solid #e5e5e5; padding:18px 20px; color:#8e8f91; font-size: 13px; margin-bottom:10px;}
+.fpw_btn{display: block; width:100%; background-color: #000; color:#fff; border:0; margin-top:20px; padding:19px 0; font-weight: 500; font-size: 15px; margin-bottom:20px}
+/* //findpw */
+
+/* resetpw */
+.rpw_info{text-align: center; font-size: 16px; font-weight: 400; margin: 42px 0 76px;}
+.small_t{color:#ff0018; font-size: 12px;}
+.rpw_btn{display: block; width:100%; background-color: #000; color:#fff; border:0; margin-top:20px; padding:19px 0; font-weight: 500; font-size: 15px; margin-bottom:20px}
+/* //resetpw */
+
